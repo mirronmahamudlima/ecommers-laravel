@@ -7,14 +7,17 @@
     "require": {
         "php": "^8.1",
         "anisaronno/laravel-media-helper": "^0.1.1",
+        "anisaronno/laravel-settings": "^1.0",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
         "predis/predis": "^2.2",
-        "spatie/laravel-activitylog": "^4.7"
+        "spatie/laravel-activitylog": "^4.7",
+        "spatie/laravel-permission": "^6.3"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.9",
         "fakerphp/faker": "^1.9.1",
         "laravel/breeze": "^1.27",
         "laravel/pint": "^1.0",

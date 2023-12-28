@@ -20,6 +20,7 @@ class NewUserNotification extends Notification
 
     public function __construct(private User $user)
     {
+        
     }
 
     /**
@@ -30,7 +31,7 @@ class NewUserNotification extends Notification
      */
     public function via($notifiable)
     {
-        return ['email'];
+        return ['email','database'];
     }
 
     
